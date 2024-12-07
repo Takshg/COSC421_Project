@@ -22,11 +22,11 @@ def create_profile(nlp, matcher, text):
         data.append([skill, sub_skill, count])
     
     # Convert data to a DataFrame
-    return pd.DataFrame(data, columns=['Skill', 'Sub-skill', 'Count'])
+    return pd.DataFrame(data, columns=['CS Field', 'Language', 'Count'])
 
-def plot_df(final_database):
+def df(final_database):
     # Aggregate programming languages counts by company name and CS Field
-    aggregated_data = final_database['Sub-skill'].groupby(
+    aggregated_data = final_database['Language'].groupby(
         [final_database['Company/Candidate Name'], final_database['Skill']]
     ).count().unstack() 
 
@@ -38,5 +38,4 @@ def plot_df(final_database):
     skillset_data = aggregated_data.iloc[:, 1:]
     skillset_data.index = aggregated_data['Company/Candidate Name']
 
-    # Save the processed data to a CSV file
-    skillset_data.to_csv('../output/skillset.csv')
+
