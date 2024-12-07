@@ -58,7 +58,7 @@ def create_profile(nlp, matcher, text):
         data.append([skill, sub_skill, count])
 
     # Convert to a DataFrame
-    return pd.DataFrame(data, columns=['Skill', 'Sub-skill', 'Count'])
+    return pd.DataFrame(data, columns=['CS Field', 'Language', 'Count'])
 
 
 if __name__ == '__main__':
