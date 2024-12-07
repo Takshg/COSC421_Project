@@ -71,8 +71,8 @@ if __name__ == '__main__':
     # Read input job descriptions
     try:
         df = pd.read_csv(
-            "/Users/takshgirdhar/Desktop/COSC421_Project/Job-Description-Parser-master/Resume_JD_parser/input/raw_data.csv"
-            # "/Users/kusshsatija/Desktop/COSC421/COSC421Project/Job-Description-Parser-master/Resume_JD_parser/input/raw_data.csv"
+            "/Users/takshgirdhar/Desktop/COSC421_Project/Data/raw_data.csv"
+            # "/Users/kusshsatija/Desktop/COSC421/COSC421Project/Data/raw_data.csv"
         )
         print("Job description data loaded successfully!")
     except Exception as e:
