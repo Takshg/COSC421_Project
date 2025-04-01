@@ -27,8 +27,34 @@ The project demonstrates how language data can be transformed into a network gra
 - Used R’s `igraph` and `ggraph` for robust network visualization and interpretation.
 
 ## 📁 Project Structure
-COSC421_Project/ │ ├── Data PreProcessing/ │ └── Data_Cleaning.ipynb │ ├── Data/ │ ├── Kaggle_Dataset_1.csv │ ├── Kaggle_Dataset_2.csv │ ├── Skillset.xlsx │ ├── raw_data.csv │ └── Data.csv │ ├── NLP/ │ ├── input/ │ │ ├── Skillset.xlsx │ │ └── raw_data.csv │ ├── output/ │ │ └── Data.csv │ └── src/ │ ├── constants.py │ ├── func.py │ └── spaCy_parser.py │ ├── R/ │ ├── Graph.R │ └── Metrics.R │ ├── Report/ │ └── Images/ │ ├── TG_27012699_KS_80384878... (figures for report) │ └── README.md
-
+```bash
+COSC421_Project/
+│ ├── Data PreProcessing/
+ │ └── Data_Cleaning.ipynb │
+├── Data/ │
+ ├── Kaggle_Dataset_1.csv │
+ ├── Kaggle_Dataset_2.csv │
+ ├── Skillset.xlsx │
+ ├── raw_data.csv
+ │ └── Data.csv │
+├── NLP/ │
+ ├── input/ │
+  │ ├── Skillset.xlsx │
+  │ └── raw_data.csv │
+ ├── output/ │
+  │ └── Data.csv
+ │ └── src/ │
+  ├── constants.py │
+  ├── func.py
+  │ └── spaCy_parser.py │
+├── R/ │
+ ├── Graph.R
+ │ └── Metrics.R │
+├── Report/
+ │ └── Images/ │... (figures for report)
+ ├── TG_27012699_KS_80384878
+│ └── README.md
+```
 ---
 
 ## 🧠 Key Technologies
