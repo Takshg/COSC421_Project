@@ -99,16 +99,14 @@ python spaCy_parser.py
 - Run the scripts to generate graphs and accuracy reports.
 
 📄 Output
-Parsed and cleaned CSV files containing skill entities.
-
-Graphical representations of frequency and match percentages.
-
-Statistical summaries of extraction performance.
+- Parsed and cleaned CSV files containing skill entities.
+- Graphical representations of frequency and match percentages.
+- Statistical summaries of extraction performance.
 
 ✍️ Authors
-Taksh Girdhar – UBC Data Science BSc
-Kussh S. – UBC Computer Science BSc
+- Taksh Girdhar – UBC Data Science BSc
+- Kussh S. – UBC Computer Science BSc
 
 License
-This project is for educational and academic purposes only.
+-This project is for educational and academic purposes only.
 
